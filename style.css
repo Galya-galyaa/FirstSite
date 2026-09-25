@@ -49,3 +49,39 @@ a {
 .nav-link:hover {
     opacity: 0.6;
 }
+
+.slogan {
+    position: relative;
+
+    width: 479px;
+    height: 379px;
+
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+
+    background-color: #FADCD9;
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.slogan-flower {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.slogan-title {
+    width: 385px; 
+
+    margin-top: 185px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.slogan-italic {
+    font-style: italic;
+    font-weight: 300;
+}
