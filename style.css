@@ -52,7 +52,7 @@ a {
 
 .slogan {
     position: relative;
-    width: 460px;
+    width: 430px;
     height: 440px;
     padding: 20px;
     background-color: #FADCD9;
@@ -82,7 +82,7 @@ a {
 
 .photo img {
     display: block;
-    width: 330px;
+    width: 320px;
     height: 476px;
     border-radius: 20px;
     object-fit: cover;
@@ -95,7 +95,7 @@ a {
 }
 
 .musea {
-    width: 340px;               
+    width: 330px;               
     padding: 30px;
 
     background-color: #FADCD9;
@@ -136,7 +136,7 @@ a {
 }
 
 .musea-list li {
-    padding: 30px 0;
+    padding: 40px 0;
     font-size: 25px;
     font-weight: 500;       
 
@@ -146,3 +146,109 @@ a {
 .musea-list li:first-child {
     margin-top: 30px;       
 }
+
+
+.about {
+    position: relative;
+
+    width: 350px;
+    height: 320px;
+
+    padding: 20px;
+
+    background-color: #FADCD9;
+    border-radius: 20px;
+}
+
+
+.about-icon {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+.about-text {
+    width: 296px;
+
+    margin-top: 130px;    
+
+    font-size: 20px;
+    font-weight: 300;     
+    line-height: 1.3;
+}
+
+.hero-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    align-items: flex-start;
+}
+
+.contact {
+    padding: 5px 5px 5px 5px; 
+    position: relative;
+    width: 340px;
+    height: 305px;             
+    padding: 30px;
+    background-color: #F8AFA6;  
+    border-radius: 20px;
+
+    margin-left: -80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-text {
+    width: 78px;
+    height: 34px;
+    font-size: 15px;
+    font-weight: 300;    
+    line-height: 1.2;
+}
+
+.contact-arrow {
+    /* position: absolute; */
+    top: 30px;
+    right: 30px;
+}
+
+.contact-arrow img {
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+
+.contact-top {
+    display: flex;
+    justify-content: space-between;   
+    align-items:center;         
+}
+
+.contact-title {
+    font-size: 53px;
+    font-weight: 500;          
+    line-height: 1;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px;
+    width: 315px;
+
+    background-color: #FADCD9;
+    border-radius: 20px;
+}
+
+.social-link {
+    font-size: 15px;
+    font-weight: 300;          
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
