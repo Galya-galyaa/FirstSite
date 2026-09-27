@@ -186,11 +186,10 @@ a {
 }
 
 .contact {
-    padding: 5px 5px 5px 5px; 
+    padding: 30px;
     position: relative;
     width: 340px;
     height: 305px;             
-    padding: 30px;
     background-color: #F8AFA6;  
     border-radius: 20px;
 
@@ -198,7 +197,6 @@ a {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .contact-text {
@@ -210,15 +208,14 @@ a {
 }
 
 .contact-arrow {
-    /* position: absolute; */
     top: 30px;
     right: 30px;
 }
 
 .contact-arrow img {
     display: block;
-    width: 28px;
-    height: 28px;
+    width: 25px;
+    height: 25px;
 }
 
 .contact-top {
@@ -228,9 +225,11 @@ a {
 }
 
 .contact-title {
-    font-size: 53px;
+    margin-top: auto;
+    font-size: 50px;
     font-weight: 500;          
     line-height: 1;
+    margin-bottom: -0.0001px;
 }
 
 .socials {
@@ -238,7 +237,7 @@ a {
     justify-content: space-between;
     align-items: center;
 
-    padding: 40px;
+    padding: 39px;
     width: 315px;
 
     background-color: #FADCD9;
